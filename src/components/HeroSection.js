@@ -10,8 +10,6 @@ function HeroSection() {
         {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
         {/* <img src="images\UMN-home.jpg" alt=""/> */}
         <h1>Inspire, and Educate.</h1>
-        <h2>Discussions every Tuesday</h2>
-        <p>6-7:30PM @Bruininks 114</p>
         <div className="hero-btns">
           <Button
             className="btns"
@@ -29,10 +27,10 @@ function HeroSection() {
             </Button>      */}
         </div>
       </div>
-      <div className="hero-2">
+      {/* <div className="hero-2">
         <h1>Placeholder</h1>
         <p>Placeholder 2</p>
-      </div>
+      </div> */}
     </>
   );
 }

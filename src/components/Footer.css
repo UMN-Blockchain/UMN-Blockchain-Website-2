@@ -171,6 +171,7 @@
 @media screen and (max-width: 820px) {
   .logotextfooter {
     margin-bottom: 20px;
+    margin-right: 12px;
   }
 
   .logofooter {

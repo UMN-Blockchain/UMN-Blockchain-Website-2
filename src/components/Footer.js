@@ -7,14 +7,16 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
-        <p className="footer-subscription-heading">
+        <p className="footer-subscription-heading" data-aos="fade-up">
           Join the our newsletter to stay up to date with events!
         </p>
-        <p className="footer-subscription-text">
+        <p className="footer-subscription-text" data-aos="fade-up">
           You can unsubscribe at any time.
         </p>
         {/* Directs to google form */}
-        <Button buttonStyle="btn--outline">Subscribe</Button>
+        <a href="https://z.umn.edu/blockchain-signup" data-aos="fade-up">
+          <Button buttonStyle="btn--outline">Subscribe</Button>
+        </a>
         {/* <div className="input-areas">
           <form>
             <input
@@ -29,19 +31,22 @@ function Footer() {
       </section>
       <div class="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div class="footer-link-items" data-aos="fade-up">
             <h2>Contact Us</h2>
-            <Link to="/">Contact</Link>
-            <Link to="/">Sponsorships</Link>
+            <Link to="/contact">Contact</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div class="footer-link-items" data-aos="fade-up">
             <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">LinkedIn</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+            <a href="https://www.instagram.com/umn_blockchain/">Instagram</a>
+            <a href="https://www.linkedin.com/company/umn-blockchain/">
+              LinkedIn
+            </a>
+            <a href="https://www.youtube.com/channel/UCHGi8gWjPJN4XyCvVkCh04w">
+              Youtube
+            </a>
+            <a href="https://twitter.com/umnblockchain">Twitter</a>
           </div>
         </div>
       </div>
@@ -56,38 +61,38 @@ function Footer() {
             <h1 className="logotextfooter">BLOCKCHAIN</h1>
           </div>
           <div class="social-icons">
-            <Link
+            <a
               class="social-icon-link instagram"
-              to="/"
+              href="https://www.instagram.com/umn_blockchain/"
               target="_blank"
               aria-label="Instagram"
             >
               <i class="fab fa-instagram" />
-            </Link>
-            <Link
+            </a>
+            <a
               class="social-icon-link youtube"
-              to="/"
+              href="https://www.youtube.com/channel/UCHGi8gWjPJN4XyCvVkCh04w"
               target="_blank"
               aria-label="Youtube"
             >
               <i class="fab fa-youtube" />
-            </Link>
-            <Link
+            </a>
+            <a
               class="social-icon-link twitter"
-              to="/"
+              href="https://twitter.com/umnblockchain"
               target="_blank"
               aria-label="Twitter"
             >
               <i class="fab fa-twitter" />
-            </Link>
-            <Link
+            </a>
+            <a
               class="social-icon-link twitter"
-              to="/"
+              href="https://www.linkedin.com/company/umn-blockchain/"
               target="_blank"
               aria-label="LinkedIn"
             >
               <i class="fab fa-linkedin" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

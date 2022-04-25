@@ -19,16 +19,16 @@ function AboutUs() {
         <div className="discussion-text" data-aos="fade-up">
           <h1>Weekly Discussions</h1>
           <p>
-            Place holder text. This is simply placeholder text. Want some more
-            place holder text? We got you. Featuring the best of the best in the
-            technology of place holders, we are able to place the holders better
-            than anyone in the industry.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
           </p>
           <p>
-            Place holder text. This is simply placeholder text. Want some more
-            place holder text? We got you. Featuring the best of the best in the
-            technology of place holders, we are able to place the holders better
-            than anyone in the industry.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
           </p>
         </div>
       </div>
@@ -36,16 +36,16 @@ function AboutUs() {
         <div className="workshop-text" data-aos="fade-up">
           <h1>Bi-Weekly Workshops</h1>
           <p>
-            Place holder text. This is simply placeholder text. Want some more
-            place holder text? We got you. Featuring the best of the best in the
-            technology of place holders, we are able to place the holders better
-            than anyone in the industry.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
           </p>
           <p>
-            Place holder text. This is simply placeholder text. Want some more
-            place holder text? We got you. Featuring the best of the best in the
-            technology of place holders, we are able to place the holders better
-            than anyone in the industry.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
           </p>
         </div>
         <div className="discussion-img" data-aos="fade-up">

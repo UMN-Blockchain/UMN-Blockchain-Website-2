@@ -7,7 +7,7 @@
   justify-content: center;
   /* box-shadow: inset 0 0 0 1000px rgba(152, 1, 46, 0.3); */
   flex-direction: column;
-  padding: 150px 650px 150px 650px;
+  padding: 75px 500px 75px 500px;
 }
 
 .mission-container > h1 {
@@ -54,13 +54,12 @@
 
 .discussion-text {
   color: #fff;
-  padding-left: 12rem;
+  padding-left: 10rem;
 }
 
 .discussion-text > h1 {
   margin-bottom: 100px;
-  margin-top: -50px;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .discussion-text > p {
@@ -75,13 +74,12 @@
 
 .workshop-text {
   color: #fff;
-  padding-right: 12rem;
+  padding-right: 10rem;
 }
 
 .workshop-text > h1 {
   margin-bottom: 100px;
-  margin-top: -50px;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .workshop-text > p {
